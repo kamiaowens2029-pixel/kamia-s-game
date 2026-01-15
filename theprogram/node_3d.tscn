@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://bv2aqbt4xldmd"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_4xowi"]
+margin = 1.62
+radius = 19.778
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_a202f"]
+custom_solver_bias = 0.08
+margin = 0.611
+radius = 6.69
+
+[node name="Node3D" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.9998378, 0.018010823, 0, -0.018010823, 0.9998378, 0, 0, 0)
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D/CollisionShape2D"]
+transform = Transform3D(0.99672794, -0.03076966, 0.07474371, -0.008654628, 0.8787669, 0.4771728, -0.08036476, -0.4762583, 0.87562543, 3.7035403, 3.2543368, -4.9978437)
+shape = SubResource("SphereShape3D_4xowi")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.99974847, -0.022425458, 0, 0.022425458, 0.99974847, 0.003095746, 0.0034515858, 0.013103247)
+visible = false
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.9625878, 0, -0.27097005, 0, 1, 0, 0.27097005, 0, 0.9625878, 0.13915575, -1, 1.9251755)
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.9999986, 0, -0.0016406088, 0, 1, 0, 0.0016406088, 0, 0.9999986, 0.047636032, -0.034668446, 1.6448898)
+visible = false
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6152062, -8.130331, 2.8572087)
+shape = SubResource("SphereShape3D_a202f")
