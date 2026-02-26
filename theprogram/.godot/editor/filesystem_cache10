@@ -1,4 +1,14 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1768511907
+::res://::1770319944
+export_presets.cfg::TextFile::-1::1770319877::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::4190272781380176678::1768505546::1768505549::1::::<><><>0<>0<>9d4474893ce03055c984d19165b05e33<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 node_3d.tscn::PackedScene::3916153255377306703::1768511659::0::1::::<><><>0<>0<><>::
+player.gd::GDScript::8162660945336744095::1769721942::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::3317297910987030987::1769714823::0::1::::<><><>0<>0<><>::uid://b0x2gewqn834e::::res://icon.svg<>uid://dokb3lfx2icah::::res://player.gd
+playerjump.gd::GDScript::7940348500064982226::1769722009::0::1::::<>CharacterBody2D<><>0<>0<><>::
+world67.tscn::PackedScene::2570809063776749060::1769721942::0::1::::<><><>0<>0<><>::uid://bni6oagr1p8tj::::res://player.tscn
+world_67.gd::GDScript::8905717670854820358::1769716604::0::1::::<>Node2D<><>0<>0<><>::
+::res://kamias game/::1770319925
+index.apple-touch-icon.png::CompressedTexture2D::428266407672966162::1770319876::1770320168::1::::<><><>0<>0<>cb3858fbb6aa1cf380447a06dc2c7c66<>res://.godot/imported/index.apple-touch-icon.png-b796d8f8550f9a7b6bb1ecc6fd6bceee.ctex::
+index.icon.png::CompressedTexture2D::3371357479443985350::1770319876::1770320168::1::::<><><>0<>0<>e9f2aac011a8813c9ff7791a1d7e8fa8<>res://.godot/imported/index.icon.png-c51c6e7465d827473bfa3f8515dab320.ctex::
+index.png::CompressedTexture2D::6205943773369138921::1770319876::1770320168::1::::<><><>0<>0<>55c656195b60cde8c6583739a35d32c8<>res://.godot/imported/index.png-335600b45729844d5c7b29a51add6685.ctex::
